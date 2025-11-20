@@ -1,4 +1,3 @@
-```markdown
 # Indonesian End-to-End Text-to-Speech System
 
 A high-quality, monolingual Text-to-Speech (TTS) system for Bahasa Indonesia built with PyTorch. The model combines a shared CNN backbone operating on rich acoustic features (Mel-spectrogram + MFCC + deltas) with an autoregressive acoustic model and a HiFi-GAN vocoder.
