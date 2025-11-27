@@ -37,6 +37,3 @@ def synthesize(text):
         wav = vocoder(mel_pred).squeeze().cpu().numpy()
     
     save_wav("output_tts_indonesia.wav", wav)
-    print("Selesai! File: output_tts_indonesia.wav")
-
-synthesize("Selamat datang di sistem Text-to-Speech bahasa Indonesia tercanggih tahun 2025.")
